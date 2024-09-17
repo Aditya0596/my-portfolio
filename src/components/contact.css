@@ -1,0 +1,21 @@
+/* Custom styling for contact form */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-form input, 
+  .contact-form textarea {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-form button {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
