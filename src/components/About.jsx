@@ -1,5 +1,5 @@
 import React from 'react';
-
+import myImage1 from '../assets/Aditya1.jpeg'; // Import the image
 const About = () => {
   return (
     <section id="about" className="container my-5">
@@ -52,7 +52,7 @@ const About = () => {
           I love playing badminton and won the 1st prize in the <strong>Ranangan 2024</strong> at Institute Level.
         </p>
         <img
-          src="/badminton-prize.jpg"
+          src={myImage1}
           alt="Badminton Prize"
           className="img-fluid rounded mt-3"
           style={{ maxWidth: '100%' }}
